@@ -3,3 +3,70 @@
   <p>This is my first webpage</p>
   <img src='axolotl.jpg'>
 </html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+ 
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e6e6fa;
+  overflow-x:hidden;
+  padding-top: 20px;
+  }
+  
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fae5fa;
+  display: block;
+  }
+  
+ .sidenav a: hover {
+   color: #e5f5fa;
+  }
+  
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  }
+  
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+    </style>
+  </head>
+  <body>
+    
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contacts">Contacts</a>
+    </div>
+    
+<div class="main">
+  <h2>Sidebar</h2>
+  <p>According to w3schools.com this sidebar is supposed to be of full height (100%) and full shown</p>
+  <p>Scroll down to see the results if you want</p>
+  <p>This is a meaningless paragraph that I'm typing randomly so it fills up space on the screen 
+   so I can test to see if it'll scroll properly. I don't know what I'm typing out and honestly 
+   I don't even really care, as long as it's long and wordy I think I'll be okay</p>
+    </div>
+    
+  </body>
+</html>
+  
